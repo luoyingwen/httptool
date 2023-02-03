@@ -43,32 +43,6 @@ function en_de_crypt(data) {
 }
 
 function httpProxyListen(httpListenPort) {
-    function request(cReq, cRes) {
-        var reqUrl = url.parse(cReq.url);
-        console.log('request url = ' + reqUrl.hostname + reqUrl.path);
-        //remove connection header
-        delete cReq.headers['connection'];
-        delete cReq.headers['proxy-connection'];
-        delete cReq.headers['Keep-Alive'];
-        cReq.headers['Connection'] = 'close';
-        var options = {
-            hostname: reqUrl.hostname,
-            port: reqUrl.port || 80,
-            path: reqUrl.path,
-            method: cReq.method,
-            headers: cReq.headers
-        };
-        var pReq = http.request(options, function (pRes) {
-            cRes.writeHead(pRes.statusCode, pRes.headers);
-            pRes.pipe(cRes);
-        }).on('error', function (e) {
-            console.log('pReq error');
-            cRes.end();
-        });
-
-        cReq.pipe(pReq);
-    }
-
     function connect(cReq, cSock) {
         var reqUrl = url.parse('http://' + cReq.url);
         console.log('connect url = ' + reqUrl.hostname);
@@ -84,7 +58,6 @@ function httpProxyListen(httpListenPort) {
     }
 
     http.createServer()
-        .on('request', request)
         .on('connect', connect)
         .listen(httpListenPort, '0.0.0.0');
     console.log('HTTP server accepting connection on port: ' + httpListenPort);
