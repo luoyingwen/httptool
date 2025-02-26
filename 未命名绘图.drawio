@@ -1,34 +1,39 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="W0kXBr5hlKFuQC5i3IID">
-    <mxGraphModel dx="662" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KBkqvCD7Zq2VlPxnjp2A-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="130" width="140" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-3" value="Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KBkqvCD7Zq2VlPxnjp2A-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-3" value="Third Party&lt;br&gt;Developer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KBkqvCD7Zq2VlPxnjp2A-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KBkqvCD7Zq2VlPxnjp2A-5" target="KBkqvCD7Zq2VlPxnjp2A-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-5" value="Android SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-5" value="OneAI Agent&lt;div&gt;Android SDK&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-6" value="Web SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-6" value="OneAI Agent&lt;br&gt;Web SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-7" value="Java SDK (Server)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-7" value="&lt;div&gt;OneAI Agent&lt;/div&gt;Java SDK (Server)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-8" value="Android APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-8" value="Agent&lt;div&gt;Android APP&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-9" value="Web APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-9" value="&lt;div&gt;Agent&lt;/div&gt;Web APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-10" value="Cloud Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-10" value="&lt;div&gt;Agent&lt;/div&gt;Cloud Service&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KBkqvCD7Zq2VlPxnjp2A-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KBkqvCD7Zq2VlPxnjp2A-6">
@@ -42,6 +47,15 @@
             <mxPoint x="360" y="250" as="sourcePoint" />
             <mxPoint x="430" y="250" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-15" value="OneAI Agent SDK&lt;div&gt;(Provided by Lenovo)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="360" width="131" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="130" width="120" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KBkqvCD7Zq2VlPxnjp2A-20" value="Agent Web Console&lt;div&gt;(Developed by Lenovo&lt;/div&gt;&lt;div&gt;Deployed by Customer)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="360" width="140" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
